@@ -3,9 +3,47 @@
 <head>
     <meta charset ="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>repair-design-project</title>
+    <title>codejam-canvas</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body class="container">
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-wrapper">
+                <img src="images/nav icon.png" />
+                <h1>CodeJam - Pallete</h1>
+            </div>
+            <img class="icon" src="images/menu icon.png" />
+        </header>
+        <main class="main">
+            <div class="menu">
+                <div class="bottom">
+                    <ul class="tools">
+                        <li><img src="images/icon-share.png" /><p>Paint bucket</p></li>
+                        <li class="dropper"><img src="images/icon-upload.png" /><p>Choose color</p></li>
+                        <li><img src="images/icon-copy.png" /><p>Move</p></li>
+                        <li><img src="images/1.png" /><p>Transform</p></li>
+                    </ul>
+                    <ul class="color">
+                        <li><input type="color" value="#C4C4C4" class="cur-color"><p>Current color</p></li>
+                        <li class="prev-color"><input type="color" value="#41F795" class="previous-color"><p>Prev color</p></li>
+                        <li><input type="color" value="#F74141" class="red"><p>red</p></li>
+                        <li><input type="color" value="#41B6F7" class="blue"><p>blue</p></li>
+                    </ul>
+                </div>
+                <div class="canvas">
+                    <canvas height='512' width='512' id="canvas"></canvas>
+                    <div class="button">
+                        <button type="button">4 x 4</button>
+                        <button type="button">32 x 32</button>
+                        <button type="button">256 x 256</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+
 </body>
 </html>
