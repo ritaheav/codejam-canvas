@@ -84,11 +84,11 @@ input[type="color"]::-webkit-color-swatch {
 .menu {
     display: flex;
 }
-.canvas {
+.draw-image {
     display: flex;
     width: 84%;
 }
-.canvas .button {
+.draw-image .size-switcher {
     flex-flow: column;
     margin-left: 10%;
     margin-top: 10%;
@@ -100,7 +100,7 @@ button {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
 }
-#canvas {
+.canvas {
     margin-left: 25%;
     image-rendering: pixelated;
     height: 512px;
